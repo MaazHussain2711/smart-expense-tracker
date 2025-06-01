@@ -2,8 +2,6 @@
 
 A stylish and powerful web app to manage your expenses, visualize them, and download reports — built with React.
 
-![screenshot](preview.png) <!-- Optional: Add a preview screenshot here -->
-
 ---
 
 ### ✨ Features
