@@ -1,0 +1,260 @@
+/* body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #161616;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(183, 75, 75, 0.5);
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  color: #b74b4b;
+}
+
+.app-header button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #b74b4b;
+  color: white;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.app-header button:hover {
+  background-color: #a03f3f;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+form input {
+  flex: 1;
+  padding: 0.5rem;
+  background-color: #1e1e1e;
+  border: none;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+form button {
+  background-color: #b74b4b;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #a03f3f;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #1e1e1e;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(183, 75, 75, 0.3);
+}
+
+li button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #cc0000;
+}
+
+select, input[type="date"] {
+  padding: 0.5rem;
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+select:hover, input[type="date"]:hover {
+  background-color: #2b2b2b;
+} */
+
+/* General body styling */
+body {
+  background-color: #121212;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Container card */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #1e1e1e;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(156, 39, 176, 0.5); /* purple glow */
+}
+
+/* Header section */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.app-header h1 {
+  font-size: 2rem;
+  color: #9c27b0; /* deep purple */
+}
+
+.app-header button {
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  background-color: #9c27b0; /* purple */
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.app-header button:hover {
+  background-color: #7b1fa2; /* darker purple on hover */
+}
+
+/* Form section */
+form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+form input {
+  flex: 1;
+  padding: 0.5rem;
+  background-color: #2a2a2a;
+  border: none;
+  color: white;
+  border-radius: 0.3rem;
+}
+
+form button {
+  background-color: #9c27b0;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #7b1fa2;
+}
+
+/* Date filter and chart selector */
+select,
+input[type="date"] {
+  padding: 0.5rem;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+select:hover,
+input[type="date"]:hover {
+  background-color: #3b3b3b;
+}
+
+/* Expense list */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #1e1e1e;
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(156, 39, 176, 0.4); /* purple glow */
+}
+
+/* Delete button */
+li button {
+  background-color: #ff4343b3; /* orange-red for delete */
+  color: white;
+  border: none;
+  padding: 0.3rem 0.7rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+li button:hover {
+  background-color: #d81515; /* darker red */
+}
+
+/* Total text */
+h3 {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+input[type="date"] {
+  padding: 0.5rem;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.3rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  width: 100%;  /* make it fill its container */
+  box-sizing: border-box;  /* include padding in width */
+  transition: background 0.3s;
+}
+
+input[type="date"]:hover {
+  background-color: #3b3b3b;
+}
