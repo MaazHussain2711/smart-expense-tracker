@@ -1,12 +1,35 @@
-# React + Vite
+# Smart Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A stylish and powerful web app to manage your expenses, visualize them, and download reports — built with React.
 
-Currently, two official plugins are available:
+![screenshot](preview.png) <!-- Optional: Add a preview screenshot here -->
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+### ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ Add expenses with name, amount, and date  
+✅ View expenses as a list or in bar/pie charts  
+✅ Filter expenses by date  
+✅ Download all expenses as an Excel file  
+✅ Clear all data with one click  
+✅ Beautiful dark theme with purple accent
+
+---
+
+### 🛠 Built With
+
+- React + Vite
+- Chart.js (`react-chartjs-2`)
+- XLSX (`sheetjs`) + FileSaver.js
+- CSS (handwritten, no frameworks)
+
+---
+
+### 🚀 How to Run Locally
+
+```bash
+git clone https://github.com/YOUR_USERNAME/smart-expense-tracker.git
+cd smart-expense-tracker
+npm install
+npm run dev
